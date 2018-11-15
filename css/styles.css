@@ -1,1 +1,28 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-news {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px #cccccc;
+}
+
+.thumbnail {
+  flex-basis: 20%;
+  max-width: 20%;
+  height: auto;
+  margin: 10px;
+}
+
+.text {
+  flex-basis: 80%;
+}
